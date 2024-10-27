@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AdSimple® Consent Manager for WordPress\n"
+"POT-Creation-Date: 2024-08-30 11:19+0200\n"
+"PO-Revision-Date: 2024-08-30 11:20+0200\n"
+"Last-Translator: Vladimir <v@in-cod.ru>\n"
+"Language-Team: v@in-cod.ru\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e;_x;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: adsimple-cookie-manager.php:342
+#, php-format
+msgid ""
+"<p>The <strong>%s</strong> plugin requires %s version %s or greater.</p>"
+msgstr ""
+"<p>Das <strong>%s</strong> Plugin benötigt %s Version %s oder höher.</p>"
+
+#: adsimple-cookie-manager.php:347
+msgid "Plugin Activation Error"
+msgstr "Plugin Aktivierungsfehler"
+
+#: assets/dashboard/views/options/cache.php:29
+msgid "Save a local copy of the script and clear it every"
+msgstr "Lokale Kopie des Scripts anlegen und Cache löschen alle"
+
+#: assets/dashboard/views/options/cache.php:38
+msgid "OR"
+msgstr "ODER"
+
+#: assets/dashboard/views/options/cache.php:38
+msgid "clear the cache manually"
+msgstr "Cache jetzt manuell löschen"
+
+#: assets/dashboard/views/options/cache.php:43
+msgid ""
+"We can't save the cache locally because your site doesn't allow writing "
+"files."
+msgstr ""
+"Das Script kann nicht lokal abgespeichert werden, da Ihr Server das "
+"Schreiben von Dateien nicht erlaubt."
+
+#: assets/dashboard/views/options/cache.php:45
+msgid "Local cache"
+msgstr "Lokaler Cache"
+
+#: assets/dashboard/views/options/cache.php:46
+msgid ""
+"If you choose to install the script locally then it won't be necessary to "
+"request the script from our servers on every load. The activation of this "
+"option will increase the speed of your site. But if you decide to change the "
+"styling or some texts within your user account on www.adsimple.at then you "
+"have to manually clear the cache here to actually see the changes on your "
+"website."
+msgstr ""
+"Wenn Sie sich dafür entscheiden unser Script lokal zu installieren, ist es "
+"zukünftig nicht mehr notwendig unser Script für jeden Besucher von unserem "
+"Server zu laden. Die Aktivierung dieser Option wird für eine höhere "
+"Websitegeschwindigkeit sorgen. Wenn Sie dann in Ihrem Benutzerkonto auf www."
+"adsimple.at das Styling oder Texte verändern, dann müssen Sie anschließend "
+"hier den Cache leeren, so dass Sie diese Änderungen auf Ihrer Website auch "
+"sehen können."
+
+#: assets/dashboard/views/options/content.php:30
+#, php-format
+msgid "You use AdSimple® Consent Manager %s!"
+msgstr "Sie nutzen den neuen AdSimple® Consent Manager %s!"
+
+#: assets/dashboard/views/options/content.php:34
+#, php-format
+msgid "Please enter your AdSimple® ID, you can get it on %s."
+msgstr "Bitte geben Sie Ihre AdSimple® ID ein, die Sie auf %s erhalten."
+
+#: assets/dashboard/views/options/content.php:44
+msgid "Save"
+msgstr "Speichern"
+
+#: assets/dashboard/views/options/content.php:44
+msgid "Set ID"
+msgstr "ID speichern"
+
+#: assets/dashboard/views/options/content.php:50
+msgid "Cookie Overview"
+msgstr "Übersicht der Cookies"
+
+#: assets/dashboard/views/options/content.php:51
+#, php-format
+msgid ""
+"Use the shortcode %s to show an ordered list of all cookies on a subpage of "
+"your website.."
+msgstr ""
+"Wenn Sie eine geordnete Liste aller Cookies auf einer Unterseite anzeigen "
+"möchten, dann können Sie das durch Einfügen des Shortcodes %s ganz einfach "
+"umsetzen."
+
+#: assets/dashboard/views/options/content.php:54
+#, php-format
+msgid ""
+"For include popup to site uses hook %s. You theme should have support of "
+"this hook."
+msgstr ""
+"Das notwendige Script wird über den Hook %s eingefügt. Ihr aktuelles Theme "
+"muss diesen Hook unterstützen."
+
+#: assets/dashboard/views/options/content.php:59
+#, php-format
+msgid "Current version of plugin %s."
+msgstr "Aktuelle Version des Plugins %s."
+
+#: assets/dashboard/views/options/notice.php:34
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: assets/dashboard/views/options/notice.php:42
+msgid "DISMISS"
+msgstr "AUSBLENDEN"
+
+#: includes/controllers/options.php:64
+msgid ""
+"Please enter AdSimple® ID to configure plugin and inserting popup to site."
+msgstr ""
+"Bitte geben Sie Ihre AdSimple® ID ein um den Consent Manager auf <a href="
+"\"https://www.adsimple.at/\" target=\"_blank\">adsimple.at</a> zu "
+"konfigurieren."
+
+#: includes/controllers/options.php:67
+msgid "Set AdSimple® ID"
+msgstr "AdSimple® ID EINGEBEN"
+
+#: includes/controllers/options.php:86
+msgid "AdSimple® ID can not be empty."
+msgstr "Bitte geben Sie Ihre AdSimple® ID ein."
+
+#: includes/controllers/options.php:106
+msgid "We successfully saved your AdSimple® ID."
+msgstr "Wir haben Ihre AdSimple® ID erfolgreich gespeichert."
+
+#: includes/controllers/options.php:147
+msgid "We successfully saved cache options."
+msgstr "Wir haben die Cache-Optionen erfolgreich gespeichert."
+
+#: includes/controllers/options.php:170
+msgid "You don't have access to make this."
+msgstr "Sie haben nicht die notwendige Berechtigung."
+
+#: includes/controllers/options.php:188
+msgid "Consent Manager"
+msgstr "Consent Manager"
+
+#: includes/controllers/options.php:391
+msgid "AdSimple® ID"
+msgstr "AdSimple® ID"
+
+#: includes/controllers/options.php:405
+msgid "Embed code"
+msgstr "Embed-Code"
+
+#: includes/controllers/options.php:449
+msgid "days"
+msgstr "Tage"
+
+#: includes/controllers/options.php:450
+msgid "hours"
+msgstr "Stunden"
+
+#: includes/controllers/options.php:451
+msgid "minutes"
+msgstr "Minuten"
+
+#: includes/services/cache/manager.php:30
+msgid "Cache disabled. You can not clear it."
+msgstr "Cache ist deaktiviert, weshalb Sie diesen nicht löschen können."
+
+#: includes/services/cache/manager.php:36
+msgid "Cache was cleared."
+msgstr "Cache wurde geleert."
+
+#: includes/services/cache/manager.php:38
+msgid "Error clear cache."
+msgstr "Fehler beim Leeren des Caches."
+
+#: includes/services/rest.php:70
+#, php-format
+msgid "Error loading data from %s. Please repeat your request later."
+msgstr ""
+"Fehler beim Laden der Daten von %s. Bitte versuchen Sie es später erneut."
+
+#: includes/services/rest.php:78
+#, php-format
+msgid "First you should select pricing plan on %s"
+msgstr "Wählen Sie zuerst ein passendes Paket auf %s"
+
+#: includes/services/rest.php:84
+msgid "Select pricing plan"
+msgstr "Paket auswählen"
+
+#: includes/services/rest.php:89
+msgid "Invalid AdSimple® ID"
+msgstr "Ungültige AdSimple® ID"
+
+#: includes/services/rest.php:92
+#, php-format
+msgid "License doesn't include domain %s."
+msgstr "Domain %s ist nicht in ihrer Lizenz enthalten."
+
+#: includes/services/rest.php:97
+#, php-format
+msgid "Domain %s doesn't exist."
+msgstr "Domain %s existiert nicht."

@@ -1,0 +1,232 @@
+/* NOTICE */
+.as_cm-notice {
+	margin-bottom      : 23px;
+	border-radius      : 5px;
+	padding            : 14px 21px 14px 25px;
+	background         : white;
+	-webkit-box-sizing : border-box;
+	box-sizing         : border-box;
+	display            : -webkit-box;
+	display            : -ms-flexbox;
+	display            : flex;
+	-webkit-box-align  : center;
+	-ms-flex-align     : center;
+	align-items        : center;
+	-webkit-box-pack   : justify;
+	-ms-flex-pack      : justify;
+	justify-content    : space-between;
+	background         : url(../../images/background.png) no-repeat;
+	background-size    : cover;
+}
+
+h1 ~ .as_cm-notice {
+	margin-top : 18px;
+}
+
+.as_cm-notice_success {
+	background-image : -webkit-gradient(linear, left top, right top, from(#46b450), to(#ffb400));
+	background-image : linear-gradient(to right, #46b450 0%, #ffb400 100%);
+}
+
+.as_cm-notice * {
+	-webkit-box-sizing : border-box;
+	box-sizing         : border-box;
+}
+
+.as_cm-notice_success .as_cm-notice__logo,
+.as_cm-notice__logo {
+	min-width       : 40px;
+	margin-right    : 27px;
+	background      : url(../../images/icon.png) no-repeat 0 0;
+	background-size : 33px;
+	height          : 44px;
+}
+
+.as_cm-notice__message {
+	-webkit-box-flex  : 20;
+	-ms-flex-positive : 20;
+	flex-grow         : 20;
+	padding-right     : 80px;
+}
+
+.as_cm-notice__message-text {
+	color       : #ffffff;
+	font-size   : 14px;
+	line-height : 1.43;
+	margin      : 0;
+	font-family : 'Roboto', sans-serif;
+	font-weight : 400;
+}
+
+.as_cm-notice__message-text a {
+	color : #ffffff;
+}
+
+.as_cm-notice__message-text_span {
+	font-family : 'Roboto', sans-serif;
+	font-weight : 700;
+}
+
+.as_cm-notice_success .as_cm-notice__message-text {
+	color : white;
+}
+
+.as_cm-notice__button-block {
+	display           : -webkit-box;
+	display           : -ms-flexbox;
+	display           : flex;
+	-webkit-box-align : center;
+	-ms-flex-align    : center;
+	align-items       : center;
+}
+
+.as_cm-notice__button {
+	min-width          : 200px;
+	display            : -webkit-box;
+	display            : -ms-flexbox;
+	display            : flex;
+	-webkit-box-align  : center;
+	-ms-flex-align     : center;
+	align-items        : center;
+	-webkit-box-pack   : center;
+	-ms-flex-pack      : center;
+	justify-content    : center;
+	text-align         : center;
+	margin-right       : 10px;
+	height             : 40px;
+	border-radius      : 3px;
+	padding            : 0 28px;
+	line-height        : 40px;
+	text-transform     : uppercase;
+	color              : white;
+	font-size          : 14px;
+	font-family        : 'Roboto', sans-serif;
+	font-weight        : 700;
+	cursor             : pointer;
+	text-decoration    : none;
+	-webkit-transition : all .3s ease;
+	transition         : all .3s ease;
+	-webkit-appearance : none;
+	-webkit-box-shadow : none;
+	outline            : none;
+	box-shadow         : none;
+	cursor             : pointer;
+}
+
+.as_cm-notice__button:focus {
+	outline    : none;
+	box-shadow : none;
+}
+
+.as_cm-notice__button:active,
+.as_cm-notice__button:focus {
+	color : #fff;
+}
+
+.as_cm-notice__button .as_cm-notice__button-icon-group {
+	-webkit-box-flex : 0;
+	-ms-flex         : 0 0 16px;
+	flex             : 0 0 16px;
+	position         : relative;
+	display          : none;
+	margin-left      : 6px;
+}
+
+.as_cm-notice__button.as_cm-notice__button-loading .as_cm-notice__button-icon-group {
+	display : block;
+}
+
+.as_cm-notice__button .as_cm-notice__button-icon-group .as_cm-notice__button-icon-send {
+	opacity           : 0;
+	display           : block;
+	background-image  : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48Y2lyY2xlIGN4PSIxNiIgY3k9IjY0IiByPSIxNiIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIxIi8+PGNpcmNsZSBjeD0iMTYiIGN5PSI2NCIgcj0iMTYiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC42NyIgdHJhbnNmb3JtPSJyb3RhdGUoNDUsNjQsNjQpIi8+PGNpcmNsZSBjeD0iMTYiIGN5PSI2NCIgcj0iMTYiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40MiIgdHJhbnNmb3JtPSJyb3RhdGUoOTAsNjQsNjQpIi8+PGNpcmNsZSBjeD0iMTYiIGN5PSI2NCIgcj0iMTYiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMzUsNjQsNjQpIi8+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHZhbHVlcz0iNDUgNjQgNjQ7OTAgNjQgNjQ7MTM1IDY0IDY0OzE4MCA2NCA2NDsyMjUgNjQgNjQ7MjcwIDY0IDY0OzMxNSA2NCA2NDswIDY0IDY0IiBjYWxjTW9kZT0iZGlzY3JldGUiIGR1cj0iOTYwbXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGVUcmFuc2Zvcm0+PC9nPjwvc3ZnPg==);
+	background-size   : 16px;
+	background-repeat : no-repeat;
+	width             : 16px;
+	height            : 16px;
+}
+
+.as_cm-notice__button.as_cm-notice__button-loading .as_cm-notice__button-icon-group .as_cm-notice__button-icon-send {
+	opacity : 1;
+}
+
+.as_cm-notice__button:last-child {
+	margin-right : 0;
+}
+
+.as_cm-notice__button:active {
+	-webkit-box-shadow : none;
+	box-shadow         : none;
+}
+
+.as_cm-notice__button_upload {
+	background : #ffb400;
+}
+
+.as_cm-notice__button_upload:hover {
+	background : #ffbf2b;
+	color      : #fff;
+}
+
+.as_cm-notice__button_dismiss {
+	border : 2px solid #dedede;
+	color  : #dfdfdf;
+}
+
+.as_cm-notice__button_dismiss:focus,
+.as_cm-notice__button_dismiss:hover {
+	background : #dedede;
+	color      : white;
+}
+
+@media screen and (max-width : 800px) {
+	.as_cm-notice {
+		-webkit-box-orient    : vertical;
+		-webkit-box-direction : normal;
+		-ms-flex-direction    : column;
+		flex-direction        : column;
+		-webkit-box-pack      : center;
+		-ms-flex-pack         : center;
+		justify-content       : center;
+		padding               : 15px 20px;
+	}
+
+	.as_cm-notice__logo {
+		margin-bottom : 16px;
+		margin-right  : 0;
+	}
+
+	.as_cm-notice__message {
+		padding-right : 0;
+		margin-bottom : 18px;
+		text-align    : center;
+	}
+}
+
+@media screen and (max-width : 500px) {
+	.as_cm-notice__message-text {
+		font-size   : 12px;
+		line-height : 1.67;
+	}
+}
+
+/* NOTICE END */
+
+/* MENU ICON */
+.toplevel_page_as_cm_settings .wp-menu-image img {
+	height : 21px;
+	width  : 16px;
+}
+
+#adminmenu .toplevel_page_as_cm_settings.current .wp-menu-image img {
+	opacity : 1;
+}
+
+/* END MENU ICON */
+
+
+/* TINYMCE BUTTON ICON */
+.mce-ico.mce-i-as_cm_button{
+	background      : url(../../images/tinymce.png) no-repeat 0 0;
+}
+/* END TINYMCE BUTTON ICON */
